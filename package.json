@@ -1,5 +1,5 @@
 {
-  "name": "valentines",
+  "name": "inkiside-backend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.0.1",
+    "jose": "^5.8.0",
+    "mongoose": "^8.1.1",
+    "mysql2": "^3.11.0",
+    "next": "^14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "sequelize": "^6.37.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.3.0",
+    "@types/react": "^18.3.3",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "typescript": "^5.5.4"
   }
 }
