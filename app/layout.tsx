@@ -1,7 +1,4 @@
 import "./globals.css";
-import '@/public/css/bootstrap.css';
-import '@/public/css/style.css';
-import '@/public/css/responsive.css';
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

@@ -1,8 +1,17 @@
+import { JWTVerifyResult } from "jose";
+
 export type SessionPayload = {
     userId: string;
 }
 
-export type AuthErrorFields = {
+export type LoginErrorFields = {
     email?: string;
-    passwor?: string;
+    password?: string;
+}
+
+export type RegistrationErrorFields = {
+    name?: string;
+    username?: string;
+    email?: string;
+    password?: string;
 }
